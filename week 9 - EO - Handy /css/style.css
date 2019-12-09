@@ -1,0 +1,421 @@
+    body{
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    grid-template-columns: auto 320px 310px 320px auto;
+    grid-gap: 10px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    display: grid;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.logo{
+    padding: 10px;
+    margin-left: 16%;
+}
+
+.header{
+    grid-column: 1/6;
+    grid-row: 1/2;
+    padding: 10px;
+    padding-bottom: 25px;
+    margin-left: 10%;
+    width: 75%;
+    height: 25%;
+}
+
+.navbuttons{
+    background: #222931;
+    width: 950px;
+    height: 30px;
+    position: absolute;
+    margin-left: 12.5%;
+    padding-left: 25px;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+.button:hover{
+    background: #ffe718;
+    color: #222931;
+}
+
+.button{
+    color: white;
+    font-weight: bold;
+    margin-right: 5px;
+    height: 47.5px;
+    width: 100px;
+    padding: 14px 5px;
+}
+
+.menumenu{
+    display:none;
+    margin: 0;
+}
+
+.overonsmenu:hover .menumenu {
+    display: block;
+    position: absolute;
+}
+
+
+.geschiedenis, .deals, .diensten{
+    display: block;
+    margin-left: 50px;
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+    background: #222931;
+}
+
+.buttonDropdown1{
+    padding-right: 36px;
+    margin-top: 10px;
+}
+
+.buttonDropdown2{
+    padding-right: 97px;
+}
+
+.buttonDropdown3{
+    padding-right: 72px;
+}
+
+.buttonDropdown1:hover, .buttonDropdown2:hover, .buttonDropdown3:hover{
+    color: #222931;
+    background: #ffe718;
+}
+
+li{
+    list-style: none;
+    background: #222931;
+    width: 150px;
+}
+
+.headerLogo{
+grid-column: 1/6;
+grid-row: 2/3;
+
+}
+
+.text{
+    background: #ffe718;
+    margin-bottom: 25px;
+    grid-column: 1/6;
+    grid-row: 5/6;
+}
+
+.wbo{
+    font-size: 34px;
+    font-weight: 700;
+    padding-top: 10px;
+    margin-left: 450px;
+}
+
+.dew{
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.textP{
+    margin: 0;
+    padding: 20px 0;
+    width: 1903px;
+    grid-column: 1/6;
+    grid-row: 5/6;    
+}
+
+.mw{
+    margin-left: 370px;
+    border: 1px solid white;
+    background: white;
+    padding: 5px 25px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.mw:hover{
+    background: #222931;
+    color: white;
+}
+
+.footerLogo{
+    grid-row: 6/7;
+    grid-column: 1/6;
+    width: 1903px;
+}
+
+.images{
+    padding: 25px;
+    grid-template-columns: auto 320px 310px 320px auto;
+}
+
+.geschiedenisIMG{
+    background: url("../img/banner-1.jpg") no-repeat;
+}
+
+.dealsIMG{
+    background: url("../img/banner-2.jpg") no-repeat;
+}
+
+.dienstenIMG{
+    background: url("../img/banner-3.jpg") no-repeat;
+}
+
+.geschiedenisIMG, .dealsIMG, .dienstenIMG{
+    width: 300px;
+    height: 220px;
+    display: inline-block;
+}
+
+.geschiedenisIMG , .geschiedenisIMG:hover  .geschiedenistext , .geschiedenistext{
+    opacity: 1;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+ .dealsIMG , .dealsIMG:hover .dealstext , .dealstext{
+    opacity: 1;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}   
+
+.dienstenIMG , .dienstenIMG:hover .dienstentext , .dienstentext{
+    opacity: 1;
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+.geschiedenistext, .dealstext, .dienstentext{
+    text-align:center;
+    opacity: 0;
+    padding: 100px 25px;
+    color: white;
+    font-weight: bold;
+    background: rgba(34,41,49,0.8);
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
+
+
+.footerButton1, .footerButton2, .footerButton3{
+    display: inline-block;
+    background: #ffe718;
+    color: #222931;
+    width: 300px;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.footerButtons{
+    position: relative;
+    bottom: 40px;
+    grid-row: 7/8;
+}
+
+.footerButton1{
+    margin-left: 500px;
+    grid-column: 2;
+}
+
+.footerButton2{
+    margin: 0 10px;
+    grid-column: 3;
+
+}
+
+.footerButton3{
+    margin-left: 500px;
+    grid-column: 4;
+}
+.footerButton1:hover{
+    color: white;
+    background: #222931;
+}
+
+.footerButton2:hover{
+    color: white;
+    background: #222931;
+}
+
+.footerButton3:hover{
+    color: white;
+    background: #222931;
+}
+
+.footerP{
+    margin: 0;
+    margin-left: 15px;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.footerButtonTitle{
+    padding-left: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    float: left;
+}
+
+.footerButtonText{
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.line{
+    border: 1px solid rgba(211, 211, 211, 0.9);
+    margin-left: 475px;
+    margin-right: 475px;
+    grid-column: 2/5;
+    grid-row: 7/8;
+}
+
+.footerTextText{
+    padding: 10px 0px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footerTitleOverOns{
+    font-weight: 600;
+    font-size: 34px;
+}
+
+.footerTitleContact{
+    font-weight: 600;
+    font-size: 34px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.overOns{
+    float: left;
+    margin-left: 500px;
+    max-width: 500px;
+    grid-column: 3/4;
+    grid-row: 7/8;
+}
+
+.contact{
+    float: right;
+    margin-right: 475px;
+}
+
+.item1Img, .item2Img, .item3Img{
+    position: relative;
+    padding-top: 10px;
+    color: #aeb6be;
+    padding-right: 10px;
+}
+
+.item1Text, .item2Text, .item3Text{
+    color: #5f656d;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+}
+
+.item1, .item2, .item3{
+    width: 300px;
+    height: 50px;
+    padding-bottom: 10px;
+}
+
+.item2Text{
+    padding-top: 12.5px;
+}
+
+.item3Text{
+    padding-top: 12.5px;
+}
+
+.footerText{
+    margin-top: 30px;
+    grid-row: 8/9;
+}
+
+.footerFooter{
+    background: #222931;
+    padding: 20px;
+}
+
+.footerFooterText{
+    color: white;
+    font-weight: bold;
+    margin-right: 475px;
+    float: right;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.breadcrumb{
+    color: #5f656d;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/*.
+diensten{
+    padding: 25px 0;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 75px;
+}
+
+.dienstenTitle{
+    font-weight: 600;
+    font-size: 34px;
+}
+*/
+
+.hoverable1:hover .tooltip1{
+    display: block;
+    color: white;
+    background: #aeb6be;
+}
+.hoverable2:hover .tooltip2{
+    display: block;
+    color: white;
+    background: #aeb6be;
+}
+.hoverable3:hover .tooltip3{
+    display: block;
+    color: white;
+    background: #aeb6be;
+}
+  
+.hoverable1, .hoverable2, .hoverable3 {
+    position: relative;
+    display: inline-block;
+    color: #ffe718;
+}
+  
+.tooltip1, .tooltip2, .tooltip3 {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background: #aeb6be;
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+}
