@@ -1,4 +1,4 @@
-§* {
+* {
     font-family: 'Archivo', sans-serif;
     font-size: 16px;
     line-height: 24px;
@@ -386,16 +386,7 @@ opacity: 0.8;
     display: inline-block;
     }
 
-.button-container .button {
-    height: 100px;
-    position: absolute;
-    top: -75px;
-    background-color: yellow;
-    width: 300px;
-    margin: 20px;
-    grid-row: 8;
-    font-weight: bold;
-}
+ 
 
 .button-container:hover .button{
     height: 100px;
